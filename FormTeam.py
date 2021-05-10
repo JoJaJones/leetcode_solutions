@@ -10,6 +10,5 @@ def formTeam(d, t, n):
         test_arr = [d_sum] + test_arr
         dev_arr.pop()
         test_arr.pop()
-        print(d_sum, t_sum)
 
     return (sum(dev_arr) + sum(test_arr)) % 1000000007
